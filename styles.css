@@ -1,0 +1,23 @@
+body {
+  color: #46344e;
+  background-color: #eae7dc;
+  font-size: 18px;
+  font-family: "book antiqua", "Arial", sans-serif;
+}
+h1 {
+  font-size: 2em;
+  color: #e85a4f;
+}
+h2 {
+  color: #e98074;
+  font-size: 1.75em;
+}
+a {
+  text-decoration: none;
+}
+a:link{
+  color:#0677a1;
+}
+a:visited{
+  color:#2d4159;
+}
