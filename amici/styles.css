@@ -1,0 +1,59 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  color: #3b3b3b;
+  background-color: #f0ede2;
+  font-size: 18px;
+  font-family: "book antiqua", "Arial", sans-serif;
+}
+h1 {
+  font-size: 2em;
+  color: #b9382e;
+  margin: 54px 0px 18px 0px;
+}
+h2 {
+  color: #d84939;
+  font-size: 1.75em;
+  margin: 18px 0px;
+}
+a {
+  text-decoration: none;
+}
+a:link{
+  color:#16b4db;
+}
+a:visited{
+  color:#00558d;
+}
+a:hover{
+  text-decoration: underline;
+}
+a:active {
+  text-decoration: underline;
+  color: #00558d;
+}
+a:vistited:hover{
+  text-decoration: underline;
+  color: #00558d;
+}
+p{
+  margin: 20px 0px;
+}
+.synopsis{
+  color: #3b3b3b;
+  font-weight: bold;
+}
+.page{
+  width: 600px;
+  margin: 0 auto;
+}
+p:last-of-type{
+  margin-bottom: 50px;
+}
+/*use border-box to ensure that margins are true and don't add pixels of content too */
+/*margins and padding go vertical horizontal or top, right, bottom, left*/
+/*classes are ranked. classes on the bottom of the sheet override classes on the top when an element has two classes applied*/
+/* Pseudo-classes: .class:link allows you to apply different styles to links in different classes */
