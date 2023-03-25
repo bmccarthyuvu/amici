@@ -1,23 +1,53 @@
 body {
-  color: #46344e;
-  background-color: #eae7dc;
+  color: #000;
+  background-color: #fff;
   font-size: 18px;
   font-family: "book antiqua", "Arial", sans-serif;
+  width: 1000px;
+  margin:auto;
 }
 h1 {
   font-size: 2em;
-  color: #e85a4f;
+  color: #1e482c;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 h2 {
-  color: #e98074;
+  color: #578164;
   font-size: 1.75em;
 }
 a {
   text-decoration: none;
 }
 a:link{
-  color:#0677a1;
+  color:#578164;
 }
 a:visited{
-  color:#2d4159;
+  color:#6f937a;
+}
+
+
+
+.menu-container{
+  color:#1e482c;
+  background-color: #e8e8e8;
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.menu {
+  
+  width: 900px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.info{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.contact{
+  padding:10px 0;
 }
