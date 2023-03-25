@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Brendan McCarthy"
+  },
+  "text": {
+    "more": "This is every node and edge in every source analyzed so far on this site. This also includes the recipients of Cicero\u0027s letters (though not connections mentioned in the text of the letters.",
+    "intro": "This network is a work in progress. It includes Plutarch\u0027s lives after Sulla, Dio 36-47, and Cicero\u0027s letter recipients.",
+    "title": "Late Republic Social Network"
+  },
+  "legend": {
+    "edgeLabel": "Interaction",
+    "colorLabel": "Clusters",
+    "nodeLabel": "Name"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "Modularity Class",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
