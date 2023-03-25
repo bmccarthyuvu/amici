@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Brendan McCarthy"
+  },
+  "text": {
+    "more": "Dio is an important historian whose works overlap with Plutarch\u0027s subjects. This sociogram allows users to compare Dio\u0027s network to Plutarchs. Dio focuses far less on personal interactions and more on the political and military narrative. His inclusion of long speeches also eliminates opportunities for his subjects to interact.",
+    "intro": "This graph shows the social networks described in Dio books 35-47.",
+    "title": "Roman Networks in Dio"
+  },
+  "legend": {
+    "edgeLabel": "Link",
+    "colorLabel": "Modularity",
+    "nodeLabel": "Individual"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": false,
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
