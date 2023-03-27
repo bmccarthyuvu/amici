@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Brendan McCarthy"
+  },
+  "text": {
+    "more": "The social network made by Plutarch is inherently biased by the men he chose to write about. This network is an attempt to remove some of that bias by removing every edge involving the protagonist of a life. Thus every edge with Cicero was removed from the Life of Cicero and so on while any edge between two others was kept. This network is thus far smaller than the total network, but demonstrates Plutarch\u0027s focus on social connections.",
+    "intro": "This network is made from Plutarch but I have removed every edge that included the protagonist of a life as a way to remove the bias created by focusing on the protagonist.",
+    "title": "Late Republic Social Network"
+  },
+  "legend": {
+    "edgeLabel": "Interaction",
+    "colorLabel": "Clusters",
+    "nodeLabel": "Name"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "Modularity Class",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
