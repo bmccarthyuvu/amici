@@ -19,9 +19,36 @@
   <h1>Amici: Mapping Roman Social Networks in the Age of Caesar</h1>
   <p>The life of Julius Caesar, the dictator of Rome, is one of the most well-researched eras in history. Unlike most eras in ancient history this period has many surviving primary sources and abundant testimony from later ancient authors working from lost sources. Therefore, this period of history is condusive to in depth methods of research like social netowrk mapping.</p>
   <p>This site hosts visualizations of Roman social networks based on descriptions from ancient authors and research by modern scholars. At the moment, you can find visualizations and analysis based on the Plutarch's <em>Parallel Lives</em>. This analysis includes the lives of Brutus, Caesar, Cato the Younger, Cicero, Crassus, Lucullus, Mark Antony, and Pompey.</p>
-  <p>You can also find the nodes and edges as well as the Gephi files on my githib repository. The vizualizations on this site are made using Gephi and exported with Sigma.JS.</p>
-  <p><a href="plutarchNet">Plutarch Vizualization</a>. This network includes Plutarch's lives covering the period after the death of Sulla.</p>
-  <p><a href="dioNet">Visualization based on Dio books 36-47</a>. These books cover from Pompey's wars in the East to the Battle of Philippi.</p>
-  <p><a href="lateRepNetwork">The Late Republic Network</a>. This is a work-in-progress that includes links from all the other networks on the site and the recipients of Cicero's letters.</p>
+  <p>Separating social networks by source allows researchers to see the ways the sources themselves think about Roman society. This then allows historians to both evaluate the sources more effectively but also add insights to the analysis of social networks made from multiple author's accounts. The goal of this project is to provide insights into the ways surviving sources have skewed our understanding of the social networks of elite Romans from the last generation of the Roman Republic.</p>
+  <p>These visualizations are works in progress. You will see that many of the figures include a short description and a link to the Digital Prosopography of the Roman Republic to give a clear identification in the case of ambiguous names. These are being added over time with the goal that every Roman will have a link to the DPRR.</p>
+  <p>You can also find the nodes and edges as well as the Gephi files on my github repository. The vizualizations on this site are made using Gephi and exported with Sigma.JS.</p>
+  <div class="linkcontainer">
+  
+    <div class="netlink">
+      <a href="plutarchNet"><span class="link-spanner"></span></a>
+      <h2>Plutarch Vizualization</h2>
+      <p>This network includes Plutarch's lives covering the period after the death of Sulla. This network demonstrates Plutarch's interest in the very end of the Republic and especially in wars. Octavian and Antony both have outsized roles in this network despite emerging in politics only at the end of the period covered. Plutarch's interest in Cleopatra and Mithridates shows a bias toward Eastern affairs.</p>
+    </div>
+
+    <div class="netlink">
+      <a href="plutarchNoProtag"><span class="link-spanner"></span></a>
+      <h2>Plutarch Without Protagonists</h2>
+      <p>This network is a manipulation of the Plutarch network where I have removed the edges with a protagonist from each life. Thus every mention of Cicero in this sociogram is from a life that isn't the <em>Life of Cicero</em>. This network diminishes the issues raised by Plutarch's choice of protagonists and reveals the figures who benefit most from Plutarch's choice like Cicero, Cato, and Brutus.</p>
+    </div>
+  
+    <div class="netlink">
+      <a href="dioNet"><span class="link-spanner"></span></a>
+      <h2>Dio Visualization</h2> 
+      <p>This network is based on Dio books 36-47 (so far). These books cover from Pompey's wars in the East to the Battle of Philippi. Dio was far less interested in social connections that Plutarch, making this network more sparse. Dio's history is also punctuated by long speeches where the speaker seldomly mentions specific people.</p>
+    </div>
+  
+  
+    <div class="netlink">
+      <a href="lateRepNetwork"><span class="link-spanner"></span></a>
+      <h2>The Late Republic Network</h2> 
+      <p>This is a work-in-progress that includes links from all the other networks on the site and the recipients of Cicero's letters. This network begins to demonstrate one major issue with sources of the time: the dominant presence of Cicero, who is not far behind Caesar in this network.</p>
+    </div>  
+  
+</div>
 </body>
 </html>
