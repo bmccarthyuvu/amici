@@ -8,8 +8,8 @@
     "text": "Brendan McCarthy"
   },
   "text": {
-    "more": "This network was made using Plutarch\u0027s Roman Lives. Each interaction between two individuals or a group was noted. This graph was made using the ForceAtlas2 in Gephi. Size is determined by the number of connections an individual has. This network demonstrates Plutarch\u0027s focus on foreign wars and eastern leaders like Mithridates and Cleopatra. It also reveals his interest in Octavian.",
-    "intro": "A social network made from Plutarch\u0027s Roman Lives after the death of Sulla. Includes Lucullus, Pompey, Crassus, Cicero, Cato the Younger, Brutus, Antony, and Caesar\nThe most important nodes in this network are Antony (degree=127), Pompey (109), Caesar (107), Cicero (95), Cato (74), Brutus (62), Octavian (61), Crassus (44), Lucullus (44), and Cleopatra (36).\nThis is a highly connected network with an average path length of 3.125 and an average clustering coefficient of 66%.",
+    "more": "This network was made using Plutarch\u0027s Roman Lives. Each interaction between two individuals or a group was noted. This graph was made using the ForceAtlas2 in Gephi. Size is determined by the number of connections an individual has. This network demonstrates Plutarch\u0027s focus on foreign wars and eastern leaders like Mithridates and Cleopatra. It also reveals his interest in Octavian.\nThis network has 530 nodes and 1190 edges. The most important nodes in this network are Antony (degree=127), Pompey (109), Caesar (107), Cicero (95), Cato (74), Brutus (62), Octavian (61), Crassus (44), Lucullus (44), and Cleopatra (36).\nThis is a highly connected network with an average path length of 3.125 and an average clustering coefficient of 66%.",
+    "intro": "A social network made from Plutarch\u0027s Roman Lives after the death of Sulla. Includes Lucullus, Pompey, Crassus, Cicero, Cato the Younger, Brutus, Antony, and Caesar. This network has 530 nodes and 1190 edges.",
     "title": "Networking Plutarch\u0027s Roman Lives After Sulla"
   },
   "legend": {
