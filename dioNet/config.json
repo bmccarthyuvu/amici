@@ -9,7 +9,7 @@
   },
   "text": {
     "more": "Dio is an important historian whose works overlap with Plutarch\u0027s subjects. This sociogram allows users to compare Dio\u0027s network to Plutarchs. Dio focuses far less on personal interactions and more on the political and military narrative. His inclusion of long speeches also eliminates opportunities for his subjects to interact.",
-    "intro": "<p>This graph shows the social networks described in Dio books 36-47.</p><ul><li><strong>Nodes:</strong> 289</li><li><strong>Unique Edges:</strong> 787</li><li><strong>Average Path:</strong> 2.95</li><li><strong>Clustering Coefficient:</strong> 57.5%</li></ul>",
+    "intro": "<p>This graph shows the social networks described in Dio books 36-47.</p><p><strong>Nodes:</strong> 289</p><p><strong>Unique Edges:</strong> 787</p><p><strong>Average Path:</strong> 2.95</p><p><strong>Clustering Coefficient:</strong> 57.5%</p>",
     "title": "Roman Networks in Dio"
   },
   "legend": {
