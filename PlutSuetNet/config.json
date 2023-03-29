@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Brendan McCarthy"
+  },
+  "text": {
+    "more": "<p>Plutarch and Suetonius were near-contemporaries who both wrote a biography of Julius Caesar. While Plutarch highlighted Caesar's ambition and military success, Suetonius highlighted his political connections and his relationships with women as a way to investigate the moral effects of monarchy.</p><br /><p><strong>Plutarch</strong></p><ul><li>Nodes: 109</li><li>Edges: 154</li><li>Edges with Caesar: 92%</li><li>Women: 9 (2 unique)</li></ul><br /><p><strong>Suetonius</strong></p><ul><li>Nodes: 126</li><li>Edges: 203</li><li>Edges with Caesar: 98%</li><li>Women: 19 (12 unique)</li></ul>",
+    "intro": "<p>Julius Caesar provides a rare opportunity for historical network research to investigate how two different biographers approach the same topic. Use the \"group\" dropdown to see the nodes who are mentioned by Suetonius alone, Plutarch alone, or both!</p><p><strong>Nodes:</strong> 172</p><p><strong>Unique Edges:</strong> 295</p><p><strong>Average Path:</strong> 2.08</p><p><strong>Clustering Coefficient:</strong> 77.4%</p>",
+    "title": "Caesar: Comparing Plutarch and Suetonius"
+  },
+  "legend": {
+    "edgeLabel": "Interaction",
+    "colorLabel": "Clusters",
+    "nodeLabel": "Name"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "AppearsIn",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "line",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 5.0,
+      "minEdgeSize": 1.0,
+      "minNodeSize": 2,
+      "maxNodeSize": 10
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
