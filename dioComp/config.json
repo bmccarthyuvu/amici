@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Brendan McCarthy"
+  },
+  "text": {
+    "more": "Dio\u0027s Roman History is one of the best narrative texts for the Roman Revolution. This sociogram was developed from books 36-51, covering Pompey\u0027s ascent to Octavian\u0027s victory over Antony.",
+    "intro": "A social network made from Dio 38-51",
+    "title": "Dio Complete"
+  },
+  "legend": {
+    "edgeLabel": "Interaction",
+    "colorLabel": "Clusters",
+    "nodeLabel": "Name"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": false,
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "line",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 3.0,
+      "minEdgeSize": 0.5,
+      "minNodeSize": 2,
+      "maxNodeSize": 10
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
