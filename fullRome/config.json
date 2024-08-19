@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Brendan McCarthy"
+  },
+  "text": {
+    "more": "This crowded sociogram included every node and edge from this project thus far, and edges created from Cicero\u0027s letters to boot (just addressees, not the people mentioned in the text of a letter). Texts included so far are Dio 36-51, Appian BC 1-5 and relevant wars, Plutarchs lives from after the death of Sulla, and Suetonius\u0027s life of Caesar.",
+    "intro": "All nodes and edges from every part of this project",
+    "title": "Dio Complete"
+  },
+  "legend": {
+    "edgeLabel": "Link",
+    "colorLabel": "Modularity",
+    "nodeLabel": "Individual"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": false,
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "line",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 5.0,
+      "minEdgeSize": 1.0,
+      "minNodeSize": 2,
+      "maxNodeSize": 10
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
